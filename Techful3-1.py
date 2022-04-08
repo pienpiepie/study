@@ -1,3 +1,6 @@
-C = int(input())
-H = 24 + ((C - 2) * 4)
-print(H)
+from tkinter.tix import Y_REGION
+
+
+X = input()
+Y = input()
+print(int(X) + int(Y) if X.isdecimal() and Y.isdecimal() else X + Y)
